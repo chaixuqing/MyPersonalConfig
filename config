@@ -1,0 +1,7 @@
+Host=github.com
+ProxyCommand=nc -X 5 -x 10.128.254.78:7890 %h %p   # -S为socks
+HostName=%h
+Port=22
+User=git
+IdentityFile=~/.ssh/id_rsa 
+IdentitiesOnly=yes
