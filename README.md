@@ -33,3 +33,6 @@ This is my personal config in linux.
 # some utils in ubuntu
 1. fzf
 2. tldr
+3. tree
+4. broot
+5. nnn
