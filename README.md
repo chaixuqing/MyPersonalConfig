@@ -36,3 +36,4 @@ This is my personal config in linux.
 3. tree
 4. broot
 5. nnn
+6. shellcheck
