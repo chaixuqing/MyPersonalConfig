@@ -30,3 +30,6 @@ This is my personal config in linux.
 25. 坚果云
 26. 网易邮箱大师 
  
+# some utils in ubuntu
+1. fzf
+2. tldr
