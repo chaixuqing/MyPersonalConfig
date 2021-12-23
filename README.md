@@ -37,3 +37,7 @@ This is my personal config in linux.
 4. broot
 5. nnn
 6. shellcheck
+7. ripgrep
+8. fd
+9. fasd
+10. autojump
