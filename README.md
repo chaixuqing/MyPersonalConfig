@@ -16,13 +16,13 @@ This is my personal config in linux.
 11. f.lux
 12. chrome
 13. IDM
-14. motrix
+14. Motrix
 15. DeskPins
 16. Ditto
 17. HoneyView
 18. MacType
 19. Mathpix Snipping Tool
-20. MiniConda
+20. Ananconda
 21. Notepad++
 22. PotPlayer
 23. Typora
@@ -41,14 +41,3 @@ This is my personal config in linux.
 8. fd
 9. fasd
 10. autojump
-
-## 中文 man 文档
-```bash
-wget https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/manpages-zh/manpages-zh-1.5.1.tar.gz
-tar zxvf manpages-zh-1.5.1.tar.gz
-cd manpages-zh-1.5.1
-./configure --prefix=/usr/local/zhman --disable-zhtw
-make && make install
-alias cman='man -M /usr/local/zhman/share/man/zh_CN'
-source ~/.zshrc
-```
