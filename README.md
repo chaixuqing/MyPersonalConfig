@@ -41,3 +41,4 @@ This is my personal config in linux.
 8. fd
 9. fasd
 10. autojump
+11. Tokei 
