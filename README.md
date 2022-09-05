@@ -42,3 +42,4 @@ This is my personal config in linux.
 9. fasd
 10. autojump
 11. Tokei 
+12. https://github.com/gpakosz/.tmux
