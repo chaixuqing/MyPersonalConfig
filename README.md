@@ -43,3 +43,6 @@ This is my personal config in linux.
 10. autojump
 11. Tokei 
 12. https://github.com/gpakosz/.tmux
+13. exa
+14. zsh-autosuggestions
+15. https://github.com/nvbn/thefuck
