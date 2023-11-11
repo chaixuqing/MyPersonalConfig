@@ -28,7 +28,8 @@ This is my personal config in linux.
 23. Typora
 24. 火绒
 25. 坚果云
-26. 网易邮箱大师 
+26. 网易邮箱大师
+27. [inshellisense](https://github.com/microsoft/inshellisense)
  
 # some utils in ubuntu
 1. fzf
