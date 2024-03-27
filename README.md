@@ -45,8 +45,11 @@ This is my personal config in linux.
 11. Tokei 
 12. https://github.com/gpakosz/.tmux
 13. exa
-14. zsh-autosuggestions
+14. [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions?tab=readme-ov-file)
 15. https://github.com/nvbn/thefuck
-更现代彩色的 ls https://github.com/ogham/exa 
+
+更现代彩色的 ls https://github.com/ogham/exa
+
 ls显示文件图标 https://github.com/sebastiencs/ls-icons
+
 格式化的 cat https://github.com/sharkdp/bat
