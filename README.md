@@ -31,6 +31,8 @@ This is my personal config in linux.
 26. 网易邮箱大师
 27. [inshellisense](https://github.com/microsoft/inshellisense)
 28. https://github.com/PowerShell/PSReadLine
+29. https://github.com/JanDeDobbeleer/oh-my-posh
+30. https://github.com/vors/ZLocation
  
 # some utils in ubuntu
 1. fzf
