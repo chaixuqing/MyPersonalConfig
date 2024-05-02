@@ -30,6 +30,7 @@ This is my personal config in linux.
 25. 坚果云
 26. 网易邮箱大师
 27. [inshellisense](https://github.com/microsoft/inshellisense)
+28. https://github.com/PowerShell/PSReadLine
  
 # some utils in ubuntu
 1. fzf
