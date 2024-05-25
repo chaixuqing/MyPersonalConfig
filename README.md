@@ -33,6 +33,7 @@ This is my personal config in linux.
 28. https://github.com/PowerShell/PSReadLine
 29. https://github.com/JanDeDobbeleer/oh-my-posh
 30. https://github.com/vors/ZLocation
+31. https://github.com/valinet/ExplorerPatcher（修改任务栏）
  
 # some utils in ubuntu
 1. fzf
