@@ -21,7 +21,7 @@ This is my personal config in linux.
 16. Ditto
 17. HoneyView
 18. MacType
-19. Mathpix Snipping Tool
+19. Mathpix Snipping Tool（或者InftyReader）
 20. Ananconda
 21. Notepad++
 22. PotPlayer
