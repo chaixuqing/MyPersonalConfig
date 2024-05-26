@@ -35,6 +35,7 @@ This is my personal config in linux.
 30. https://github.com/vors/ZLocation
 31. https://github.com/valinet/ExplorerPatcher（修改任务栏）
 32. vscode
+33. Snipaste
  
 # some utils in ubuntu
 1. fzf
