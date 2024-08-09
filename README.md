@@ -36,6 +36,7 @@ This is my personal config in linux.
 31. https://github.com/valinet/ExplorerPatcher（修改任务栏）
 32. vscode
 33. Snipaste
+34. https://github.com/chrisant996/clink
  
 # some utils in ubuntu
 1. fzf
