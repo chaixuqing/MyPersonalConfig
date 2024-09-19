@@ -61,3 +61,6 @@ This is my personal config in linux.
 ls显示文件图标 https://github.com/sebastiencs/ls-icons
 
 格式化的 cat https://github.com/sharkdp/bat
+
+# 多平台都支持
+https://github.com/BurntSushi/ripgrep
