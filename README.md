@@ -64,3 +64,5 @@ ls显示文件图标 https://github.com/sebastiencs/ls-icons
 
 # 多平台都支持
 https://github.com/BurntSushi/ripgrep
+
+https://github.com/sunlei/awesome-tools
