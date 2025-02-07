@@ -55,6 +55,9 @@ This is my personal config in linux.
 14. [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions?tab=readme-ov-file)
 15. https://github.com/nvbn/thefuck
 16. [zoxide](https://github.com/ajeetdsouza/zoxide)
+17. ranger
+18. neofetch
+19. glance
 
 更现代彩色的 ls https://github.com/ogham/exa
 
