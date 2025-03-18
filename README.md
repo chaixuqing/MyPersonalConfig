@@ -4,9 +4,9 @@ This is my personal config in windows11 and ubuntu.
 
 ## 多平台都支持
 
-<https://github.com/BurntSushi/ripgrep>
-<https://github.com/sunlei/awesome-tools>
-<https://github.com/GitAlias/gitalias>
+1. <https://github.com/BurntSushi/ripgrep>
+2. <https://github.com/sunlei/awesome-tools>
+3. <https://github.com/GitAlias/gitalias>
 
 ## awesome software for windows
 
