@@ -1,5 +1,10 @@
 # MyPersonalConfig
-This is my personal config in linux.
+This is my personal config in windows11 and ubuntu.
+
+# 多平台都支持
+https://github.com/BurntSushi/ripgrep
+https://github.com/sunlei/awesome-tools
+https://github.com/GitAlias/gitalias
 
 
 # awesome software for windows
@@ -65,7 +70,3 @@ ls显示文件图标 https://github.com/sebastiencs/ls-icons
 
 格式化的 cat https://github.com/sharkdp/bat
 
-# 多平台都支持
-https://github.com/BurntSushi/ripgrep
-
-https://github.com/sunlei/awesome-tools
