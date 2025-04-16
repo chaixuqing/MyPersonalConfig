@@ -7,6 +7,9 @@ This is my personal config in windows11 and ubuntu.
 1. <https://github.com/BurntSushi/ripgrep>
 2. <https://github.com/sunlei/awesome-tools>
 3. <https://github.com/GitAlias/gitalias>
+4. uv
+5. pandoc
+6. 
 
 ## awesome software for windows
 
@@ -54,18 +57,19 @@ This is my personal config in windows11 and ubuntu.
 5. nnn
 6. shellcheck
 7. ripgrep
-8. fd
+8. [fd](https://github.com/sharkdp/fd)
 9. fasd
 10. autojump
 11. Tokei
 12. <https://github.com/gpakosz/.tmux>
 13. exa
 14. [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions?tab=readme-ov-file)
-15. <https://github.com/nvbn/thefuck>
-16. [zoxide](https://github.com/ajeetdsouza/zoxide)
-17. ranger
-18. neofetch
-19. glance
+15. https://man7.org/linux/man-pages/man1/locate.1.html
+16. <https://github.com/nvbn/thefuck>
+17. [zoxide](https://github.com/ajeetdsouza/zoxide)
+18. ranger
+19. neofetch
+20. glance
 
 更现代彩色的 ls <https://github.com/ogham/exa>
 
