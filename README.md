@@ -9,7 +9,6 @@ This is my personal config in windows11 and ubuntu.
 3. <https://github.com/GitAlias/gitalias>
 
 ## awesome software for windows
-
 1. smallpdf
 2. X-PDF-Viewer
 3. sumatraPDf
@@ -46,7 +45,6 @@ This is my personal config in windows11 and ubuntu.
 34. <https://github.com/chrisant996/clink>
 
 ## some utils in ubuntu
-
 1. fzf
 2. tldr
 3. tree
@@ -66,6 +64,7 @@ This is my personal config in windows11 and ubuntu.
 17. ranger
 18. neofetch
 19. glance
+20. [exa](https://github.com/ogham/exa)
 
 更现代彩色的 ls <https://github.com/ogham/exa>
 
