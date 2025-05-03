@@ -65,9 +65,6 @@ This is my personal config in windows11 and ubuntu.
 18. neofetch
 19. glance
 20. [exa](https://github.com/ogham/exa)
-
-更现代彩色的 ls <https://github.com/ogham/exa>
-
-ls显示文件图标 <https://github.com/sebastiencs/ls-icons>
-
-格式化的 cat <https://github.com/sharkdp/bat>
+21. [rocolatey](https://github.com/rocolatey/rocolatey)
+22. [ls-icons](https://github.com/sebastiencs/ls-icons)显示彩色图标
+23. [bat](https://github.com/sharkdp/)格式化的 cat
