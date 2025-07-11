@@ -12,7 +12,6 @@ This is my personal config in windows11 and ubuntu.
 6. 
 
 ## awesome software for windows
-
 1. smallpdf
 2. X-PDF-Viewer
 3. sumatraPDf
@@ -49,7 +48,6 @@ This is my personal config in windows11 and ubuntu.
 34. <https://github.com/chrisant996/clink>
 
 ## some utils in ubuntu
-
 1. fzf
 2. tldr
 3. tree
@@ -64,15 +62,12 @@ This is my personal config in windows11 and ubuntu.
 12. <https://github.com/gpakosz/.tmux>
 13. exa
 14. [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions?tab=readme-ov-file)
-15. https://man7.org/linux/man-pages/man1/locate.1.html
-16. <https://github.com/nvbn/thefuck>
-17. [zoxide](https://github.com/ajeetdsouza/zoxide)
-18. ranger
-19. neofetch
-20. glance
-
-更现代彩色的 ls <https://github.com/ogham/exa>
-
-ls显示文件图标 <https://github.com/sebastiencs/ls-icons>
-
-格式化的 cat <https://github.com/sharkdp/bat>
+15. <https://github.com/nvbn/thefuck>
+16. [zoxide](https://github.com/ajeetdsouza/zoxide)
+17. ranger
+18. neofetch
+19. glance
+20. [exa](https://github.com/ogham/exa)
+21. [rocolatey](https://github.com/rocolatey/rocolatey)
+22. [ls-icons](https://github.com/sebastiencs/ls-icons)显示彩色图标
+23. [bat](https://github.com/sharkdp/)格式化的 cat
