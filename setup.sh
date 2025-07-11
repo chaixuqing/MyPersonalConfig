@@ -68,7 +68,11 @@ install_system_packages() {
         python3 python3-pip \
         unzip software-properties-common \
         apt-transport-https ca-certificates \
-        gnupg lsb-release
+        gnupg lsb-release \
+        pkg-config libssl-dev libffi-dev \
+        libsqlite3-dev libreadline-dev \
+        libbz2-dev libncurses5-dev libgdbm-dev \
+        liblzma-dev tk-dev uuid-dev
     
     log_success "System packages installed successfully"
 }
@@ -107,45 +111,152 @@ install_package_managers() {
     log_success "Package managers installed successfully"
 }
 
-# Install Rust and Cargo tools
+# Install Rust and minimal Cargo tools
 install_rust_ecosystem() {
-    show_progress "Installing Rust and modern CLI tools..."
+    show_progress "Installing Rust and essential tools..."
     
-    # Install Rust if not present
+    # Install Rust if not present (some tools still need it)
     if ! command -v cargo &> /dev/null; then
         log_info "Installing Rust..."
         curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
         source $HOME/.cargo/env
     fi
     
-    # Install modern CLI tools via Cargo
-    log_info "Installing modern CLI tools (this may take a while)..."
-    
-    CARGO_TOOLS=(
-        "eza"                    # Modern ls replacement
-        "fd-find"               # Modern find replacement  
-        "zoxide"                # Smart cd replacement
-        "bat"                   # Enhanced cat
-        "ripgrep"               # Ultra-fast grep
-        "bottom"                # Modern htop alternative
-        "du-dust"               # Intuitive du replacement
-        "starship"              # Cross-shell prompt
-        "tokei"                 # Code statistics
-        "hyperfine"             # Benchmarking tool
-        "procs"                 # Modern ps replacement
-        "mcfly"                 # Intelligent shell history
-        "mise"                  # Universal runtime manager
-        "broot --locked --features clipboard"  # Interactive tree
+    # Only install essential tools that compile quickly via cargo
+    ESSENTIAL_CARGO_TOOLS=(
+        "tokei"                 # Code statistics (compiles fast)
+        "hyperfine"             # Benchmarking tool (compiles fast)
     )
     
-    for tool in "${CARGO_TOOLS[@]}"; do
-        if ! cargo install --list | grep -q "$(echo $tool | cut -d' ' -f1)"; then
-            log_info "Installing $tool..."
-            cargo install $tool || log_warning "Failed to install $tool"
+    for tool in "${ESSENTIAL_CARGO_TOOLS[@]}"; do
+        if ! cargo install --list | grep -q "$tool"; then
+            log_info "Installing $tool via cargo..."
+            if timeout 120 cargo install $tool; then
+                log_success "$tool installed successfully"
+            else
+                log_warning "Failed to install $tool, skipping..."
+            fi
         fi
     done
     
-    log_success "Rust ecosystem tools installed successfully"
+    log_success "Essential Rust tools installed"
+}
+
+# Install modern tools via pre-compiled binaries
+install_precompiled_tools() {
+    show_progress "Installing modern tools via pre-compiled binaries..."
+    
+    # Create local bin directory
+    mkdir -p ~/.local/bin
+    
+    # Install eza (modern ls replacement)
+    if ! command -v eza &> /dev/null; then
+        log_info "Installing eza..."
+        EZA_VERSION=$(curl -s https://api.github.com/repos/eza-community/eza/releases/latest | grep tag_name | cut -d '"' -f 4)
+        wget -q "https://github.com/eza-community/eza/releases/download/${EZA_VERSION}/eza_x86_64-unknown-linux-gnu.tar.gz" -O /tmp/eza.tar.gz
+        tar -xzf /tmp/eza.tar.gz -C /tmp/
+        sudo mv /tmp/eza /usr/local/bin/
+        rm -f /tmp/eza.tar.gz
+    fi
+    
+    # Install fd (modern find replacement)
+    if ! command -v fd &> /dev/null; then
+        log_info "Installing fd..."
+        FD_VERSION=$(curl -s https://api.github.com/repos/sharkdp/fd/releases/latest | grep tag_name | cut -d '"' -f 4)
+        wget -q "https://github.com/sharkdp/fd/releases/download/${FD_VERSION}/fd-${FD_VERSION}-x86_64-unknown-linux-gnu.tar.gz" -O /tmp/fd.tar.gz
+        tar -xzf /tmp/fd.tar.gz -C /tmp/
+        sudo mv /tmp/fd-*/fd /usr/local/bin/
+        rm -rf /tmp/fd* /tmp/fd.tar.gz
+    fi
+    
+    # Install bat (enhanced cat)
+    if ! command -v bat &> /dev/null; then
+        log_info "Installing bat..."
+        BAT_VERSION=$(curl -s https://api.github.com/repos/sharkdp/bat/releases/latest | grep tag_name | cut -d '"' -f 4)
+        wget -q "https://github.com/sharkdp/bat/releases/download/${BAT_VERSION}/bat-${BAT_VERSION}-x86_64-unknown-linux-gnu.tar.gz" -O /tmp/bat.tar.gz
+        tar -xzf /tmp/bat.tar.gz -C /tmp/
+        sudo mv /tmp/bat-*/bat /usr/local/bin/
+        rm -rf /tmp/bat* /tmp/bat.tar.gz
+    fi
+    
+    # Install ripgrep (ultra-fast grep)
+    if ! command -v rg &> /dev/null; then
+        log_info "Installing ripgrep..."
+        RG_VERSION=$(curl -s https://api.github.com/repos/BurntSushi/ripgrep/releases/latest | grep tag_name | cut -d '"' -f 4)
+        wget -q "https://github.com/BurntSushi/ripgrep/releases/download/${RG_VERSION}/ripgrep-${RG_VERSION}-x86_64-unknown-linux-musl.tar.gz" -O /tmp/rg.tar.gz
+        tar -xzf /tmp/rg.tar.gz -C /tmp/
+        sudo mv /tmp/ripgrep-*/rg /usr/local/bin/
+        rm -rf /tmp/ripgrep* /tmp/rg.tar.gz
+    fi
+    
+    # Install zoxide (smart cd replacement)
+    if ! command -v zoxide &> /dev/null; then
+        log_info "Installing zoxide..."
+        ZOXIDE_VERSION=$(curl -s https://api.github.com/repos/ajeetdsouza/zoxide/releases/latest | grep tag_name | cut -d '"' -f 4)
+        wget -q "https://github.com/ajeetdsouza/zoxide/releases/download/${ZOXIDE_VERSION}/zoxide-${ZOXIDE_VERSION}-x86_64-unknown-linux-musl.tar.gz" -O /tmp/zoxide.tar.gz
+        tar -xzf /tmp/zoxide.tar.gz -C /tmp/
+        sudo mv /tmp/zoxide /usr/local/bin/
+        rm -f /tmp/zoxide.tar.gz
+    fi
+    
+    # Install starship (cross-shell prompt)
+    if ! command -v starship &> /dev/null; then
+        log_info "Installing starship..."
+        curl -sS https://starship.rs/install.sh | sh -s -- -y
+    fi
+    
+    # Install dust (intuitive du replacement)
+    if ! command -v dust &> /dev/null; then
+        log_info "Installing dust..."
+        DUST_VERSION=$(curl -s https://api.github.com/repos/bootandy/dust/releases/latest | grep tag_name | cut -d '"' -f 4)
+        wget -q "https://github.com/bootandy/dust/releases/download/${DUST_VERSION}/dust-${DUST_VERSION}-x86_64-unknown-linux-gnu.tar.gz" -O /tmp/dust.tar.gz
+        tar -xzf /tmp/dust.tar.gz -C /tmp/
+        sudo mv /tmp/dust-*/dust /usr/local/bin/
+        rm -rf /tmp/dust* /tmp/dust.tar.gz
+    fi
+    
+    # Install procs (modern ps replacement)
+    if ! command -v procs &> /dev/null; then
+        log_info "Installing procs..."
+        PROCS_VERSION=$(curl -s https://api.github.com/repos/dalance/procs/releases/latest | grep tag_name | cut -d '"' -f 4)
+        wget -q "https://github.com/dalance/procs/releases/download/${PROCS_VERSION}/procs-${PROCS_VERSION}-x86_64-linux.zip" -O /tmp/procs.zip
+        unzip -q /tmp/procs.zip -d /tmp/
+        sudo mv /tmp/procs /usr/local/bin/
+        rm -f /tmp/procs.zip
+    fi
+    
+    # Install mise (runtime manager) via direct binary
+    if ! command -v mise &> /dev/null; then
+        log_info "Installing mise..."
+        # Try the official installer first
+        if curl -fsSL https://mise.run | sh; then
+            log_success "mise installed successfully"
+        else
+            log_warning "Official installer failed, trying alternative method..."
+            # Alternative: Direct binary download
+            MISE_VERSION=$(curl -s https://api.github.com/repos/jdx/mise/releases/latest | grep tag_name | cut -d '"' -f 4)
+            if [ -n "$MISE_VERSION" ]; then
+                wget -q "https://github.com/jdx/mise/releases/download/${MISE_VERSION}/mise-${MISE_VERSION}-linux-x64.tar.gz" -O /tmp/mise.tar.gz
+                if [ -f /tmp/mise.tar.gz ]; then
+                    tar -xzf /tmp/mise.tar.gz -C /tmp/
+                    sudo mv /tmp/mise/bin/mise /usr/local/bin/
+                    rm -rf /tmp/mise /tmp/mise.tar.gz
+                    log_success "mise installed via direct binary"
+                else
+                    log_warning "Could not install mise, you can install it manually later with: curl https://mise.run | sh"
+                fi
+            else
+                log_warning "Could not determine mise version, skipping installation"
+            fi
+        fi
+        
+        # Add to PATH if installed
+        if command -v mise &> /dev/null; then
+            echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc
+        fi
+    fi
+    
+    log_success "Pre-compiled tools installed successfully"
 }
 
 # Install additional modern tools
@@ -417,6 +528,7 @@ main() {
     install_system_packages
     install_package_managers
     install_rust_ecosystem
+    install_precompiled_tools
     install_additional_tools
     setup_zsh
     configure_shell

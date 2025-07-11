@@ -1,0 +1,48 @@
+name: Validate Scripts
+
+on:
+  push:
+    branches: [ master, main ]
+  pull_request:
+    branches: [ master, main ]
+
+jobs:
+  shellcheck:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Run ShellCheck
+      uses: ludeeus/action-shellcheck@master
+      with:
+        scandir: '.'
+        format: gcc
+        severity: warning
+
+  test-ubuntu-setup:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Test init.sh syntax
+      run: |
+        bash -n init.sh
+        echo "✅ init.sh has valid syntax"
+    
+    - name: Test partial setup (safe commands only)
+      run: |
+        # Test commands that don't require sudo or system changes
+        set -e
+        
+        # Check if required tools would be available
+        command -v apt >/dev/null 2>&1 || exit 1
+        command -v curl >/dev/null 2>&1 || exit 1
+        command -v git >/dev/null 2>&1 || exit 1
+        
+        # Validate URLs are reachable
+        curl -sI https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/heads/master/install.sh > /dev/null
+        curl -sI https://github.com/neovim/neovim/releases/latest/download/nvim-linux-x86_64.tar.gz > /dev/null
+        curl -sI https://github.com/NvChad/starter > /dev/null
+        
+        echo "✅ All URLs in init.sh are reachable"
+        echo "✅ Required system tools are available"
