@@ -68,3 +68,4 @@ This is my personal config in windows11 and ubuntu.
 21. [rocolatey](https://github.com/rocolatey/rocolatey)
 22. [ls-icons](https://github.com/sebastiencs/ls-icons)显示彩色图标
 23. [bat](https://github.com/sharkdp/)格式化的 cat
+24. btop
