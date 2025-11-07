@@ -7,9 +7,6 @@ This is my personal config in windows11 and ubuntu.
 1. <https://github.com/BurntSushi/ripgrep>
 2. <https://github.com/sunlei/awesome-tools>
 3. <https://github.com/GitAlias/gitalias>
-4. uv
-5. pandoc
-6. 
 
 ## awesome software for windows
 1. smallpdf
@@ -55,7 +52,7 @@ This is my personal config in windows11 and ubuntu.
 5. nnn
 6. shellcheck
 7. ripgrep
-8. [fd](https://github.com/sharkdp/fd)
+8. fd
 9. fasd
 10. autojump
 11. Tokei
@@ -71,3 +68,4 @@ This is my personal config in windows11 and ubuntu.
 21. [rocolatey](https://github.com/rocolatey/rocolatey)
 22. [ls-icons](https://github.com/sebastiencs/ls-icons)显示彩色图标
 23. [bat](https://github.com/sharkdp/)格式化的 cat
+24. btop
