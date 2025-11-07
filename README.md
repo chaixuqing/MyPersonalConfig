@@ -30,7 +30,7 @@ This is my personal config in windows11 and ubuntu.
 
 ## awesome software for windows
 1. <a href="https://smallpdf.com">smallpdf</a> (smallpdf - PDF处理工具)
-2. <a href="">X-PDF-Viewer</a> (X-PDF-Viewer - PDF阅读器)
+2. <a href="#">X-PDF-Viewer</a> (X-PDF-Viewer - PDF阅读器)
 3. <a href="https://github.com/sumatrapdfreader/sumatrapdf">SumatraPDF</a> (SumatraPDF - 轻量PDF阅读器, 15k+ stars)
 4. <a href="https://mobaxterm.mobatek.net/">MobaXterm</a> (MobaXterm - SSH客户端和X服务器)
 5. <a href="https://www.yuque.com">语雀</a> (语雀 - 文档协作平台)
