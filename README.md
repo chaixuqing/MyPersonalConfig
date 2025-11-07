@@ -45,7 +45,7 @@ This is my personal config in windows11 and ubuntu.
 39. <a href="https://github.com/aristocratos/btop">btop</a> (btop - 资源监控工具, 26k+ stars)
 40. <a href="https://github.com/o2sh/onefetch">onefetch</a> (onefetch - Git信息展示工具, 11k+ stars)
 41. <a href="https://github.com/Canop/broot">broot</a> (broot - 现代目录导航工具, 12k+ stars)
-42. <a href="https://github.com/ogham/exa">exa</a> (exa - 现代ls替代品, 24k+ stars)
+42. <a href="https://github.com/eza-community/eza">eza</a> (eza - 现代ls替代品, 18k+ stars)
 43. <a href="https://github.com/jarun/nnn">nnn</a> (nnn - 终端文件管理器, 20k+ stars)
 44. <a href="https://github.com/Slackadays/Clipboard">Clipboard</a> (Clipboard - 剪贴板管理器, 6k+ stars)
 
@@ -94,6 +94,6 @@ This is my personal config in windows11 and ubuntu.
 6. <a href="https://github.com/ohmyzsh/ohmyzsh">Oh My Zsh</a> (Oh My Zsh - Zsh配置管理框架, 182k+ stars)
 7. <a href="https://github.com/nvm-sh/nvm">nvm</a> (nvm - Node版本管理器, 88k+ stars)
 8. <a href="https://github.com/ranger/ranger">ranger</a> (ranger - 命令行文件管理器, 16k+ stars)
-9. <a href="https://github.com/dylanaraps/neofetch">neofetch</a> (neofetch - 系统信息显示, 22k+ stars)
+9. <a href="https://github.com/fastfetch-cli/fastfetch">fastfetch</a> (fastfetch - 系统信息显示工具, 17k+ stars)
 
 
