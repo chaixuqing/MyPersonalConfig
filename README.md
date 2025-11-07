@@ -48,6 +48,9 @@ This is my personal config in windows11 and ubuntu.
 42. <a href="https://github.com/eza-community/eza">eza</a> (eza - 现代ls替代品, 18k+ stars)
 43. <a href="https://github.com/jarun/nnn">nnn</a> (nnn - 终端文件管理器, 20k+ stars)
 44. <a href="https://github.com/Slackadays/Clipboard">Clipboard</a> (Clipboard - 剪贴板管理器, 6k+ stars)
+45. <a href="https://github.com/ohmyzsh/ohmyzsh">Oh My Zsh</a> (Oh My Zsh - Zsh配置管理框架, 182k+ stars)
+46. <a href="https://github.com/zsh-users/zsh-autosuggestions">zsh-autosuggestions</a> (zsh-autosuggestions - Zsh命令自动建议, 34k+ stars)
+47. <a href="https://github.com/nvm-sh/nvm">nvm</a> (nvm - Node版本管理器, Windows使用nvm-windows, 88k+ stars)
 
 ## awesome software for windows
 1. <a href="https://smallpdf.com">smallpdf</a> (smallpdf - PDF处理工具)
@@ -82,18 +85,14 @@ This is my personal config in windows11 and ubuntu.
 30. <a href="https://github.com/winsiderss/systeminformer">System Informer</a> (System Informer - 系统监控, 13k+ stars)
 31. <a href="https://github.com/LibreHardwareMonitor/LibreHardwareMonitor">LibreHardwareMonitor</a> (LibreHardwareMonitor - 硬件监控, 7k+ stars)
 32. <a href="https://github.com/WinMerge/winmerge">WinMerge</a> (WinMerge - 文件对比工具, 8k+ stars)
-33. <a href="https://github.com/0x7c13/Notepads">Notepads</a> (Notepads - 文本编辑器, 9k+ stars)
-34. <a href="https://github.com/rocolatey/rocolatey">rocolatey</a> (rocolatey - Chocolatey包管理器查询工具, 30 stars)
+33. <a href="https://github.com/rocolatey/rocolatey">rocolatey</a> (rocolatey - Chocolatey包管理器TUI工具, 30 stars)
 
 ## some utils in ubuntu
 1. <a href="http://mama.indstate.edu/users/ice/tree/">tree</a> (tree - 目录树显示工具)
 2. <a href="https://github.com/clvv/fasd">fasd</a> (fasd - 命令行快速访问工具, 6k+ stars)
 3. <a href="https://github.com/wting/autojump">autojump</a> (autojump - 目录快速跳转, 16k+ stars)
 4. <a href="https://github.com/gpakosz/.tmux">tmux配置</a> (tmux配置 - 终端复用器配置, 23k+ stars)
-5. <a href="https://github.com/zsh-users/zsh-autosuggestions">zsh-autosuggestions</a> (zsh-autosuggestions - 命令自动建议, 34k+ stars)
-6. <a href="https://github.com/ohmyzsh/ohmyzsh">Oh My Zsh</a> (Oh My Zsh - Zsh配置管理框架, 182k+ stars)
-7. <a href="https://github.com/nvm-sh/nvm">nvm</a> (nvm - Node版本管理器, 88k+ stars)
-8. <a href="https://github.com/ranger/ranger">ranger</a> (ranger - 命令行文件管理器, 16k+ stars)
-9. <a href="https://github.com/fastfetch-cli/fastfetch">fastfetch</a> (fastfetch - 系统信息显示工具, 17k+ stars)
+5. <a href="https://github.com/ranger/ranger">ranger</a> (ranger - 命令行文件管理器, 16k+ stars)
+6. <a href="https://github.com/fastfetch-cli/fastfetch">fastfetch</a> (fastfetch - 系统信息显示工具, 17k+ stars)
 
 
