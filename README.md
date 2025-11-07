@@ -91,7 +91,7 @@ This is my personal config in windows11 and ubuntu.
 12. <a href="https://github.com/ranger/ranger">ranger</a> (ranger - 命令行文件管理器, 16k+ stars)
 13. <a href="https://github.com/dylanaraps/neofetch">neofetch</a> (neofetch - 系统信息显示, 22k+ stars)
 14. <a href="https://github.com/nicolargo/glances">glances</a> (glances - 系统监控工具, 28k+ stars)
-15. <a href="https://github.com/rocolatey/rocolately">rocolatey</a> (rocolatey - 包管理器)
+15. <a href="https://github.com/rocolatey/rocolatey">rocolatey</a> (rocolatey - 包管理器)
 16. <a href="https://github.com/sebastiencs/ls-icons">ls-icons</a> (ls-icons - 彩色图标显示)
 17. <a href="https://github.com/aristocratos/btop">btop</a> (btop - 资源监控工具, 26k+ stars)
 18. <a href="https://github.com/jarun/nnn">nnn</a> (nnn - 终端文件管理器, 20k+ stars)
