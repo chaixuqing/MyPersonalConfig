@@ -108,7 +108,7 @@ This is my personal config in windows11 and ubuntu.
 31. <https://github.com/toeverything/AFFiNE> (AFFiNE - 新一代知识库, 59k+ stars)
 32. <https://github.com/marktext/marktext> (MarkText - Markdown编辑器, 52k+ stars)
 33. <https://github.com/o2sh/onefetch> (onefetch - Git信息展示工具, 11k+ stars)
-34. <https://github.com/Slackadays/Clipboard> (Clipboard - 智能剪贴板管理器, 5.5k+ stars)
+34. <https://github.com/Slackadays/Clipboard> (Clipboard - 智能剪贴板管理器, 6k+ stars)
 35. <https://github.com/containers/podman> (Podman - 容器管理工具, 29k+ stars)
 36. <https://github.com/dokku/dokku> (Dokku - Docker驱动的PaaS, 31k+ stars)
 37. <https://github.com/portainer/portainer> (Portainer - Docker和K8s管理工具, 35k+ stars)
