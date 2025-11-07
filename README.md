@@ -85,7 +85,7 @@ This is my personal config in windows11 and ubuntu.
 30. <a href="https://github.com/winsiderss/systeminformer">System Informer</a> (系统监控, 13k+ stars)
 31. <a href="https://github.com/LibreHardwareMonitor/LibreHardwareMonitor">LibreHardwareMonitor</a> (硬件监控, 7k+ stars)
 32. <a href="https://github.com/WinMerge/winmerge">WinMerge</a> (文件对比工具, 8k+ stars)
-33. <a href="https://github.com/rocolatey/rocolatey">rocolatey</a> (Chocolatey包管理器TUI工具, 30+ stars)
+33. <a href="https://github.com/rocolatey/rocolatey">rocolatey</a> (Chocolatey包管理器TUI工具, 30 stars)
 
 ## some utils in ubuntu
 1. <a href="http://mama.indstate.edu/users/ice/tree/">tree</a> (目录树显示工具)
