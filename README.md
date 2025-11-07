@@ -97,7 +97,7 @@ This is my personal config in windows11 and ubuntu.
 20. [exa](https://github.com/ogham/exa)
 21. [rocolatey](https://github.com/rocolatey/rocolatey)
 22. [ls-icons](https://github.com/sebastiencs/ls-icons)显示彩色图标
-23. [bat](https://github.com/sharkdp/)格式化的 cat
+23. [bat](https://github.com/sharkdp/bat)格式化的 cat
 24. btop
 25. <https://github.com/ghostty-org/ghostty> (Ghostty - 快速跨平台终端模拟器, 37k+ stars)
 26. <https://github.com/wezterm/wezterm> (WezTerm - GPU加速终端, 22k+ stars)
