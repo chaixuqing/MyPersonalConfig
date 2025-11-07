@@ -4,9 +4,9 @@ This is my personal config in windows11 and ubuntu.
 
 ## 多平台都支持
 
-1. <https://github.com/BurntSushi/ripgrep> (ripgrep, 40k+ stars)
-2. <https://github.com/sunlei/awesome-tools>
-3. <https://github.com/GitAlias/gitalias>
+1. <https://github.com/BurntSushi/ripgrep> (ripgrep - 快速代码搜索工具, 40k+ stars)
+2. <https://github.com/sunlei/awesome-tools> (awesome-tools - 工具集合)
+3. <https://github.com/GitAlias/gitalias> (gitalias - Git别名配置)
 4. <https://github.com/junegunn/fzf> (fzf - 命令行模糊查找, 74k+ stars)
 5. <https://github.com/sharkdp/bat> (bat - 格式化的cat替代品, 55k+ stars)
 6. <https://github.com/sharkdp/fd> (fd - 简单快速的find替代品, 40k+ stars)
@@ -22,93 +22,86 @@ This is my personal config in windows11 and ubuntu.
 16. <https://github.com/imsnif/bandwhich> (bandwhich - 终端带宽监控工具, 11k+ stars)
 17. <https://github.com/ClementTsang/bottom> (bottom - 跨平台系统监控工具, 12k+ stars)
 18. <https://github.com/ast-grep/ast-grep> (ast-grep - 代码结构化搜索工具, 11k+ stars)
+19. <https://github.com/usememos/memos> (Memos - 开源笔记服务, 45k+ stars)
+20. <https://github.com/toeverything/AFFiNE> (AFFiNE - 新一代知识库, 59k+ stars)
+21. <https://github.com/marktext/marktext> (MarkText - Markdown编辑器, 52k+ stars)
+22. <https://github.com/ghostty-org/ghostty> (Ghostty - 快速跨平台终端模拟器, 37k+ stars)
+23. <https://github.com/wezterm/wezterm> (WezTerm - GPU加速终端, 22k+ stars)
 
 ## awesome software for windows
-1. smallpdf
-2. X-PDF-Viewer
-3. sumatraPDf
-4. MobaXterm
-5. 语雀
-6. Bandizip
-7. CCleaner
-8. Clash for windows
-9. 滴答清单
-10. everything
-11. f.lux
-12. chrome
-13. IDM
-14. DeskPins
-15. Ditto
-16. HoneyView
-17. MacType
-18. Mathpix Snipping Tool（或者InftyReader）
-19. Ananconda
-20. Notepad++
-21. PotPlayer
-22. Typora
-23. 火绒
-24. 坚果云
-25. 网易邮箱大师
-26. [inshellisense](https://github.com/microsoft/inshellisense)
-27. <https://github.com/PowerShell/PSReadLine>
-28. <https://github.com/JanDeDobbeleer/oh-my-posh>
-29. <https://github.com/vors/ZLocation>
-30. <https://github.com/valinet/ExplorerPatcher> (修改任务栏)
-31. vscode
-32. Snipaste
-33. <https://github.com/chrisant996/clink>
-34. <https://github.com/microsoft/vscode> (VS Code - 微软开源代码编辑器, 178k+ stars)
-35. <https://github.com/ShareX/ShareX> (ShareX - 免费开源截图录屏工具, 34k+ stars)
-36. <https://github.com/files-community/Files> (Files - 现代化文件管理器, 40k+ stars)
-37. <https://github.com/zed-industries/zed> (Zed - 高性能多人代码编辑器, 69k+ stars)
-38. <https://github.com/lapce/lapce> (Lapce - Rust编写的闪电般快速编辑器, 37k+ stars)
-39. <https://github.com/agalwood/Motrix> (Motrix - 全功能下载管理器, 49k+ stars)
-40. <https://github.com/GopeedLab/gopeed> (Gopeed - 现代跨平台下载管理器, 21k+ stars)
-41. <https://github.com/Flow-Launcher/Flow.Launcher> (Flow Launcher - Windows快速启动器, 11k+ stars)
-42. <https://github.com/hluk/CopyQ> (CopyQ - 高级剪贴板管理器, 10k+ stars)
-43. <https://github.com/d2phap/ImageGlass> (ImageGlass - 轻量级图片查看器, 11k+ stars)
-44. <https://github.com/winsiderss/systeminformer> (System Informer - 强大的系统监控工具, 13k+ stars)
-45. <https://github.com/LibreHardwareMonitor/LibreHardwareMonitor> (LibreHardwareMonitor - 硬件监控工具, 7k+ stars)
-46. <https://github.com/WinMerge/winmerge> (WinMerge - 文件对比合并工具, 8k+ stars)
-47. <https://github.com/filecxx/FileCentipede> (FileCentipede - 跨平台下载工具, 10k+ stars)
-48. <https://github.com/0x7c13/Notepads> (Notepads - 现代轻量级文本编辑器, 9k+ stars)
+1. [smallpdf](https://smallpdf.com) (PDF处理工具)
+2. X-PDF-Viewer (PDF阅读器)
+3. <https://github.com/sumatrapdfreader/sumatrapdf> (SumatraPDF - 轻量PDF阅读器, 15k+ stars)
+4. [MobaXterm](https://mobaxterm.mobatek.net/) (SSH客户端和X服务器)
+5. [语雀](https://www.yuque.com) (文档协作平台)
+6. [Bandizip](https://www.bandisoft.com/bandizip/) (压缩解压工具)
+7. [CCleaner](https://www.ccleaner.com/) (系统清理工具)
+8. <https://github.com/clash-verge-rev/clash-verge-rev> (Clash Verge Rev - 代理客户端, 80k+ stars)
+9. [滴答清单](https://www.ticktick.com) (待办事项管理)
+10. [everything](https://www.voidtools.com/) (文件快速搜索)
+11. [f.lux](https://justgetflux.com/) (屏幕色温调节)
+12. [Chrome](https://www.google.com/chrome/) (谷歌浏览器)
+13. [IDM](https://www.internetdownloadmanager.com/) (下载管理器)
+14. [DeskPins](https://efotinis.neocities.org/deskpins/) (窗口置顶工具)
+15. <https://github.com/sabrogden/Ditto> (Ditto - 剪贴板管理器, 5k+ stars)
+16. [HoneyView](https://www.bandisoft.com/honeyview/) (图片查看器)
+17. <https://github.com/snowie2000/mactype> (MacType - 字体渲染优化, 11k+ stars)
+18. [Mathpix Snipping Tool](https://mathpix.com/) (数学公式OCR工具)
+19. [Anaconda](https://www.anaconda.com/) (Python数据科学平台)
+20. [Notepad++](https://notepad-plus-plus.org/) (文本编辑器)
+21. [PotPlayer](https://potplayer.daum.net/) (媒体播放器)
+22. [Typora](https://typora.io/) (Markdown编辑器)
+23. [火绒](https://www.huorong.cn/) (安全软件)
+24. [坚果云](https://www.jianguoyun.com/) (云存储同步)
+25. [网易邮箱大师](https://mail.163.com/dashi/) (邮件客户端)
+26. <https://github.com/microsoft/inshellisense> (inshellisense - Shell自动补全)
+27. <https://github.com/PowerShell/PSReadLine> (PSReadLine - PowerShell命令行编辑)
+28. <https://github.com/JanDeDobbeleer/oh-my-posh> (Oh My Posh - Shell提示符主题)
+29. <https://github.com/vors/ZLocation> (ZLocation - 目录快速跳转)
+30. <https://github.com/valinet/ExplorerPatcher> (ExplorerPatcher - 任务栏修改工具)
+31. <https://github.com/microsoft/vscode> (VS Code - 代码编辑器, 178k+ stars)
+32. <https://github.com/Snipaste/feedback> (Snipaste - 截图贴图工具, 3k+ stars)
+33. <https://github.com/chrisant996/clink> (Clink - CMD增强工具)
+34. <https://github.com/ShareX/ShareX> (ShareX - 截图录屏工具, 34k+ stars)
+35. <https://github.com/files-community/Files> (Files - 现代文件管理器, 40k+ stars)
+36. <https://github.com/zed-industries/zed> (Zed - 高性能代码编辑器, 69k+ stars)
+37. <https://github.com/lapce/lapce> (Lapce - Rust编写的编辑器, 37k+ stars)
+38. <https://github.com/agalwood/Motrix> (Motrix - 下载管理器, 49k+ stars)
+39. <https://github.com/GopeedLab/gopeed> (Gopeed - 现代下载管理器, 21k+ stars)
+40. <https://github.com/Flow-Launcher/Flow.Launcher> (Flow Launcher - 快速启动器, 11k+ stars)
+41. <https://github.com/hluk/CopyQ> (CopyQ - 剪贴板管理器, 10k+ stars)
+42. <https://github.com/d2phap/ImageGlass> (ImageGlass - 图片查看器, 11k+ stars)
+43. <https://github.com/winsiderss/systeminformer> (System Informer - 系统监控, 13k+ stars)
+44. <https://github.com/LibreHardwareMonitor/LibreHardwareMonitor> (LibreHardwareMonitor - 硬件监控, 7k+ stars)
+45. <https://github.com/WinMerge/winmerge> (WinMerge - 文件对比工具, 8k+ stars)
+46. <https://github.com/filecxx/FileCentipede> (FileCentipede - 下载工具, 10k+ stars)
+47. <https://github.com/0x7c13/Notepads> (Notepads - 文本编辑器, 9k+ stars)
 
 ## some utils in ubuntu
-1. fzf
-2. tldr
-3. tree
-4. broot
-5. shellcheck
-6. ripgrep
-7. fd
-8. fasd
-9. autojump
-10. Tokei
-11. <https://github.com/gpakosz/.tmux>
-12. exa
-13. [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions?tab=readme-ov-file)
-14. <https://github.com/nvbn/thefuck>
-15. [zoxide](https://github.com/ajeetdsouza/zoxide)
-16. ranger
-17. neofetch
-18. glance
-19. [exa](https://github.com/ogham/exa)
-20. [rocolatey](https://github.com/rocolatey/rocolatey)
-21. [ls-icons](https://github.com/sebastiencs/ls-icons)显示彩色图标
-22. [bat](https://github.com/sharkdp/bat) 格式化的 cat
-23. btop
-24. <https://github.com/ghostty-org/ghostty> (Ghostty - 快速跨平台终端模拟器, 37k+ stars)
-25. <https://github.com/wezterm/wezterm> (WezTerm - GPU加速终端, 22k+ stars)
-26. <https://github.com/netdata/netdata> (Netdata - AI驱动的全栈可观测性工具, 76k+ stars)
-27. <https://github.com/prometheus/prometheus> (Prometheus - 监控系统和时序数据库, 61k+ stars)
-28. <https://github.com/jarun/nnn> (nnn - 极简终端文件管理器, 20k+ stars)
-29. <https://github.com/usememos/memos> (Memos - 开源笔记服务, 45k+ stars)
-30. <https://github.com/toeverything/AFFiNE> (AFFiNE - 新一代知识库, 59k+ stars)
-31. <https://github.com/marktext/marktext> (MarkText - Markdown编辑器, 52k+ stars)
-32. <https://github.com/o2sh/onefetch> (onefetch - Git信息展示工具, 11k+ stars)
-33. <https://github.com/Slackadays/Clipboard> (Clipboard - 智能剪贴板管理器, 6k+ stars)
-34. <https://github.com/containers/podman> (Podman - 容器管理工具, 29k+ stars)
-35. <https://github.com/dokku/dokku> (Dokku - Docker驱动的PaaS, 31k+ stars)
-36. <https://github.com/portainer/portainer> (Portainer - Docker和K8s管理工具, 35k+ stars)
-37. <https://github.com/traefik/traefik> (Traefik - 云原生应用代理, 57k+ stars)
+1. <https://github.com/junegunn/fzf> (fzf - 命令行模糊查找工具, 74k+ stars)
+2. <https://github.com/tldr-pages/tldr> (tldr - 简化的命令手册)
+3. [tree](http://mama.indstate.edu/users/ice/tree/) (tree - 目录树显示工具)
+4. <https://github.com/Canop/broot> (broot - 现代目录导航工具)
+5. <https://github.com/koalaman/shellcheck> (shellcheck - Shell脚本静态分析, 37k+ stars)
+6. <https://github.com/BurntSushi/ripgrep> (ripgrep - 快速代码搜索, 40k+ stars)
+7. <https://github.com/sharkdp/fd> (fd - 快速文件查找工具, 40k+ stars)
+8. <https://github.com/clvv/fasd> (fasd - 命令行快速访问工具)
+9. <https://github.com/wting/autojump> (autojump - 目录快速跳转, 16k+ stars)
+10. <https://github.com/XAMPPRocky/tokei> (Tokei - 代码统计工具, 12k+ stars)
+11. <https://github.com/gpakosz/.tmux> (tmux配置 - 终端复用器配置)
+12. <https://github.com/ogham/exa> (exa - 现代ls替代品, 24k+ stars)
+13. <https://github.com/zsh-users/zsh-autosuggestions> (zsh-autosuggestions - 命令自动建议)
+14. <https://github.com/nvbn/thefuck> (thefuck - 命令纠错工具, 89k+ stars)
+15. <https://github.com/ajeetdsouza/zoxide> (zoxide - 智能cd命令, 30k+ stars)
+16. <https://github.com/ranger/ranger> (ranger - 命令行文件管理器)
+17. <https://github.com/dylanaraps/neofetch> (neofetch - 系统信息显示, 22k+ stars)
+18. <https://github.com/nicolargo/glances> (glances - 系统监控工具, 28k+ stars)
+19. <https://github.com/rocolatey/rocolatey> (rocolatey - 包管理器)
+20. <https://github.com/sebastiencs/ls-icons> (ls-icons - 彩色图标显示)
+21. <https://github.com/sharkdp/bat> (bat - 格式化的cat工具, 55k+ stars)
+22. <https://github.com/aristocratos/btop> (btop - 资源监控工具, 26k+ stars)
+23. <https://github.com/jarun/nnn> (nnn - 终端文件管理器, 20k+ stars)
+24. <https://github.com/o2sh/onefetch> (onefetch - Git信息展示工具, 11k+ stars)
+25. <https://github.com/Slackadays/Clipboard> (Clipboard - 剪贴板管理器, 6k+ stars)
+
 
