@@ -1,71 +1,94 @@
 # MyPersonalConfig
+The software I'm using is supported by both Windows and ubuntu
 
-This is my personal config in windows11 and ubuntu.
-
-## 多平台都支持
-
-1. <https://github.com/BurntSushi/ripgrep>
-2. <https://github.com/sunlei/awesome-tools>
-3. <https://github.com/GitAlias/gitalias>
+## Software compatible with both Windows and Ubuntu
+1. <a href="https://github.com/ohmyzsh/ohmyzsh">Oh My Zsh</a> (Zsh配置管理框架, ![Stars](https://img.shields.io/github/stars/ohmyzsh/ohmyzsh?style=flat&label=Stars&logo=github))
+2. <a href="https://github.com/microsoft/vscode">VS Code</a> (代码编辑器, ![Stars](https://img.shields.io/github/stars/microsoft/vscode?style=flat&label=Stars&logo=github))
+3. <a href="https://github.com/nvm-sh/nvm">nvm</a> (Node版本管理器, Windows使用nvm-windows, ![Stars](https://img.shields.io/github/stars/nvm-sh/nvm?style=flat&label=Stars&logo=github))
+4. <a href="https://github.com/nvbn/thefuck">thefuck</a> (命令纠错工具, ![Stars](https://img.shields.io/github/stars/nvbn/thefuck?style=flat&label=Stars&logo=github))
+5. <a href="https://github.com/clash-verge-rev/clash-verge-rev">Clash Verge Rev</a> (代理客户端, ![Stars](https://img.shields.io/github/stars/clash-verge-rev/clash-verge-rev?style=flat&label=Stars&logo=github))
+6. <a href="https://github.com/junegunn/fzf">fzf</a> (命令行模糊查找, ![Stars](https://img.shields.io/github/stars/junegunn/fzf?style=flat&label=Stars&logo=github))
+7. <a href="https://github.com/zed-industries/zed">Zed</a> (高性能代码编辑器, ![Stars](https://img.shields.io/github/stars/zed-industries/zed?style=flat&label=Stars&logo=github))
+8. <a href="https://github.com/alacritty/alacritty">Alacritty</a> (GPU加速的跨平台终端, ![Stars](https://img.shields.io/github/stars/alacritty/alacritty?style=flat&label=Stars&logo=github))
+9. <a href="https://github.com/toeverything/AFFiNE">AFFiNE</a> (新一代知识库, ![Stars](https://img.shields.io/github/stars/toeverything/AFFiNE?style=flat&label=Stars&logo=github))
+10. <a href="https://github.com/tldr-pages/tldr">tldr</a> (简化的命令手册, ![Stars](https://img.shields.io/github/stars/tldr-pages/tldr?style=flat&label=Stars&logo=github))
+11. <a href="https://github.com/sharkdp/bat">bat</a> (格式化的cat替代品, ![Stars](https://img.shields.io/github/stars/sharkdp/bat?style=flat&label=Stars&logo=github))
+12. <a href="https://github.com/starship/starship">Starship</a> (极简快速的shell提示符, ![Stars](https://img.shields.io/github/stars/starship/starship?style=flat&label=Stars&logo=github))
+13. <a href="https://github.com/marktext/marktext">MarkText</a> (Markdown编辑器, ![Stars](https://img.shields.io/github/stars/marktext/marktext?style=flat&label=Stars&logo=github))
+14. <a href="https://github.com/agalwood/Motrix">Motrix</a> (下载管理器, ![Stars](https://img.shields.io/github/stars/agalwood/Motrix?style=flat&label=Stars&logo=github))
+15. <a href="https://github.com/usememos/memos">Memos</a> (开源笔记服务, ![Stars](https://img.shields.io/github/stars/usememos/memos?style=flat&label=Stars&logo=github))
+16. <a href="https://github.com/cli/cli">GitHub CLI</a> (GitHub官方命令行工具, ![Stars](https://img.shields.io/github/stars/cli/cli?style=flat&label=Stars&logo=github))
+17. <a href="https://github.com/sharkdp/fd">fd</a> (简单快速的find替代品, ![Stars](https://img.shields.io/github/stars/sharkdp/fd?style=flat&label=Stars&logo=github))
+18. <a href="https://github.com/BurntSushi/ripgrep">ripgrep</a> (快速代码搜索工具, ![Stars](https://img.shields.io/github/stars/BurntSushi/ripgrep?style=flat&label=Stars&logo=github))
+19. <a href="https://github.com/ghostty-org/ghostty">Ghostty</a> (快速跨平台终端模拟器, ![Stars](https://img.shields.io/github/stars/ghostty-org/ghostty?style=flat&label=Stars&logo=github))
+20. <a href="https://github.com/koalaman/shellcheck">shellcheck</a> (Shell脚本静态分析, ![Stars](https://img.shields.io/github/stars/koalaman/shellcheck?style=flat&label=Stars&logo=github))
+21. <a href="https://github.com/lapce/lapce">Lapce</a> (Rust编写的编辑器, ![Stars](https://img.shields.io/github/stars/lapce/lapce?style=flat&label=Stars&logo=github))
+22. <a href="https://github.com/zsh-users/zsh-autosuggestions">zsh-autosuggestions</a> (Zsh命令自动建议, ![Stars](https://img.shields.io/github/stars/zsh-users/zsh-autosuggestions?style=flat&label=Stars&logo=github))
+23. <a href="https://github.com/ajeetdsouza/zoxide">zoxide</a> (智能cd命令, ![Stars](https://img.shields.io/github/stars/ajeetdsouza/zoxide?style=flat&label=Stars&logo=github))
+24. <a href="https://github.com/nicolargo/glances">glances</a> (系统监控工具, ![Stars](https://img.shields.io/github/stars/nicolargo/glances?style=flat&label=Stars&logo=github))
+25. <a href="https://github.com/atuinsh/atuin">atuin</a> (神奇的shell历史记录, ![Stars](https://img.shields.io/github/stars/atuinsh/atuin?style=flat&label=Stars&logo=github))
+26. <a href="https://github.com/aristocratos/btop">btop</a> (资源监控工具, ![Stars](https://img.shields.io/github/stars/aristocratos/btop?style=flat&label=Stars&logo=github))
+27. <a href="https://github.com/sharkdp/hyperfine">hyperfine</a> (命令行基准测试工具, ![Stars](https://img.shields.io/github/stars/sharkdp/hyperfine?style=flat&label=Stars&logo=github))
+28. <a href="https://github.com/wez/wezterm">WezTerm</a> (GPU加速终端, ![Stars](https://img.shields.io/github/stars/wez/wezterm?style=flat&label=Stars&logo=github))
+29. <a href="https://github.com/GopeedLab/gopeed">Gopeed</a> (现代下载管理器, ![Stars](https://img.shields.io/github/stars/GopeedLab/gopeed?style=flat&label=Stars&logo=github))
+30. <a href="https://github.com/JanDeDobbeleer/oh-my-posh">Oh My Posh</a> (Shell提示符主题, ![Stars](https://img.shields.io/github/stars/JanDeDobbeleer/oh-my-posh?style=flat&label=Stars&logo=github))
+31. <a href="https://github.com/jarun/nnn">nnn</a> (终端文件管理器, ![Stars](https://img.shields.io/github/stars/jarun/nnn?style=flat&label=Stars&logo=github))
+32. <a href="https://github.com/eza-community/eza">eza</a> (现代ls替代品, ![Stars](https://img.shields.io/github/stars/eza-community/eza?style=flat&label=Stars&logo=github))
+33. <a href="https://github.com/denisidoro/navi">navi</a> (交互式命令行速查工具, ![Stars](https://img.shields.io/github/stars/denisidoro/navi?style=flat&label=Stars&logo=github))
+34. <a href="https://github.com/XAMPPRocky/tokei">Tokei</a> (代码统计工具, ![Stars](https://img.shields.io/github/stars/XAMPPRocky/tokei?style=flat&label=Stars&logo=github))
+35. <a href="https://github.com/Canop/broot">broot</a> (现代目录导航工具, ![Stars](https://img.shields.io/github/stars/Canop/broot?style=flat&label=Stars&logo=github))
+36. <a href="https://github.com/ClementTsang/bottom">bottom</a> (跨平台系统监控工具, ![Stars](https://img.shields.io/github/stars/ClementTsang/bottom?style=flat&label=Stars&logo=github))
+37. <a href="https://github.com/imsnif/bandwhich">bandwhich</a> (终端带宽监控工具, ![Stars](https://img.shields.io/github/stars/imsnif/bandwhich?style=flat&label=Stars&logo=github))
+38. <a href="https://github.com/ast-grep/ast-grep">ast-grep</a> (代码结构化搜索工具, ![Stars](https://img.shields.io/github/stars/ast-grep/ast-grep?style=flat&label=Stars&logo=github))
+39. <a href="https://github.com/o2sh/onefetch">onefetch</a> (Git信息展示工具, ![Stars](https://img.shields.io/github/stars/o2sh/onefetch?style=flat&label=Stars&logo=github))
+40. <a href="https://github.com/hluk/CopyQ">CopyQ</a> (剪贴板管理器, ![Stars](https://img.shields.io/github/stars/hluk/CopyQ?style=flat&label=Stars&logo=github))
+41. <a href="https://github.com/filecxx/FileCentipede">FileCentipede</a> (下载工具, ![Stars](https://img.shields.io/github/stars/filecxx/FileCentipede?style=flat&label=Stars&logo=github))
+42. <a href="https://github.com/microsoft/inshellisense">inshellisense</a> (Shell自动补全, ![Stars](https://img.shields.io/github/stars/microsoft/inshellisense?style=flat&label=Stars&logo=github))
+43. <a href="https://github.com/Slackadays/Clipboard">Clipboard</a> (剪贴板管理器, ![Stars](https://img.shields.io/github/stars/Slackadays/Clipboard?style=flat&label=Stars&logo=github))
+44. <a href="https://github.com/GitAlias/gitalias">gitalias</a> (Git别名配置, ![Stars](https://img.shields.io/github/stars/GitAlias/gitalias?style=flat&label=Stars&logo=github))
+45. <a href="https://www.google.com/chrome/">Chrome</a> (谷歌浏览器, 商业软件)
+46. <a href="https://www.anaconda.com/">Anaconda</a> (Python数据科学平台, 商业软件)
+47. <a href="https://typora.io/">Typora</a> (Markdown编辑器, 商业软件)
 
 ## awesome software for windows
-1. smallpdf
-2. X-PDF-Viewer
-3. sumatraPDf
-4. MobaXterm
-5. 语雀
-6. Bandizip
-7. CCleaner
-8. Clash for windows
-9. 滴答清单
-10. everything
-11. f.lux
-12. chrome
-13. IDM
-14. Motrix
-15. DeskPins
-16. Ditto
-17. HoneyView
-18. MacType
-19. Mathpix Snipping Tool（或者InftyReader）
-20. Ananconda
-21. Notepad++
-22. PotPlayer
-23. Typora
-24. 火绒
-25. 坚果云
-26. 网易邮箱大师
-27. [inshellisense](https://github.com/microsoft/inshellisense)
-28. <https://github.com/PowerShell/PSReadLine>
-29. <https://github.com/JanDeDobbeleer/oh-my-posh>
-30. <https://github.com/vors/ZLocation>
-31. <https://github.com/valinet/ExplorerPatcher（修改任务栏）>
-32. vscode
-33. Snipaste
-34. <https://github.com/chrisant996/clink>
+1. <a href="https://github.com/files-community/Files">Files</a> (现代文件管理器, ![Stars](https://img.shields.io/github/stars/files-community/Files?style=flat&label=Stars&logo=github))
+2. <a href="https://github.com/ShareX/ShareX">ShareX</a> (截图录屏工具, ![Stars](https://img.shields.io/github/stars/ShareX/ShareX?style=flat&label=Stars&logo=github))
+3. <a href="https://github.com/valinet/ExplorerPatcher">ExplorerPatcher</a> (任务栏修改工具, ![Stars](https://img.shields.io/github/stars/valinet/ExplorerPatcher?style=flat&label=Stars&logo=github))
+4. <a href="https://github.com/sumatrapdfreader/sumatrapdf">SumatraPDF</a> (轻量PDF阅读器, ![Stars](https://img.shields.io/github/stars/sumatrapdfreader/sumatrapdf?style=flat&label=Stars&logo=github))
+5. <a href="https://github.com/winsiderss/systeminformer">System Informer</a> (系统监控, ![Stars](https://img.shields.io/github/stars/winsiderss/systeminformer?style=flat&label=Stars&logo=github))
+6. <a href="https://github.com/d2phap/ImageGlass">ImageGlass</a> (图片查看器, ![Stars](https://img.shields.io/github/stars/d2phap/ImageGlass?style=flat&label=Stars&logo=github))
+7. <a href="https://github.com/Flow-Launcher/Flow.Launcher">Flow Launcher</a> (快速启动器, ![Stars](https://img.shields.io/github/stars/Flow-Launcher/Flow.Launcher?style=flat&label=Stars&logo=github))
+8. <a href="https://github.com/snowie2000/mactype">MacType</a> (字体渲染优化, ![Stars](https://img.shields.io/github/stars/snowie2000/mactype?style=flat&label=Stars&logo=github))
+9. <a href="https://github.com/WinMerge/winmerge">WinMerge</a> (文件对比工具, ![Stars](https://img.shields.io/github/stars/WinMerge/winmerge?style=flat&label=Stars&logo=github))
+10. <a href="https://github.com/LibreHardwareMonitor/LibreHardwareMonitor">LibreHardwareMonitor</a> (硬件监控, ![Stars](https://img.shields.io/github/stars/LibreHardwareMonitor/LibreHardwareMonitor?style=flat&label=Stars&logo=github))
+11. <a href="https://github.com/sabrogden/Ditto">Ditto</a> (剪贴板管理器, ![Stars](https://img.shields.io/github/stars/sabrogden/Ditto?style=flat&label=Stars&logo=github))
+12. <a href="https://github.com/Snipaste/feedback">Snipaste</a> (截图贴图工具, ![Stars](https://img.shields.io/github/stars/Snipaste/feedback?style=flat&label=Stars&logo=github))
+13. <a href="https://github.com/PowerShell/PSReadLine">PSReadLine</a> (PowerShell命令行编辑, ![Stars](https://img.shields.io/github/stars/PowerShell/PSReadLine?style=flat&label=Stars&logo=github))
+14. <a href="https://github.com/chrisant996/clink">Clink</a> (CMD增强工具, ![Stars](https://img.shields.io/github/stars/chrisant996/clink?style=flat&label=Stars&logo=github))
+15. <a href="https://github.com/vors/ZLocation">ZLocation</a> (目录快速跳转, ![Stars](https://img.shields.io/github/stars/vors/ZLocation?style=flat&label=Stars&logo=github))
+16. <a href="https://github.com/rocolatey/rocolatey">rocolatey</a> (Chocolatey包管理器TUI工具, ![Stars](https://img.shields.io/github/stars/rocolatey/rocolatey?style=flat&label=Stars&logo=github))
+17. <a href="https://www.voidtools.com/">everything</a> (文件快速搜索)
+18. <a href="https://www.internetdownloadmanager.com/">IDM</a> (下载管理器)
+19. <a href="https://notepad-plus-plus.org/">Notepad++</a> (文本编辑器)
+20. <a href="https://potplayer.daum.net/">PotPlayer</a> (媒体播放器)
+21. <a href="https://www.bandisoft.com/bandizip/">Bandizip</a> (压缩解压工具)
+22. <a href="https://www.bandisoft.com/honeyview/">HoneyView</a> (图片查看器)
+23. <a href="https://mobaxterm.mobatek.net/">MobaXterm</a> (SSH客户端和X服务器)
+24. <a href="https://www.huorong.cn/">火绒</a> (安全软件)
+25. <a href="https://www.ticktick.com">滴答清单</a> (待办事项管理)
+26. <a href="https://www.ccleaner.com/">CCleaner</a> (系统清理工具)
+27. <a href="https://www.jianguoyun.com/">坚果云</a> (云存储同步)
+28. <a href="https://www.yuque.com">语雀</a> (文档协作平台)
+29. <a href="https://smallpdf.com">smallpdf</a> (PDF处理工具)
+30. <a href="https://mathpix.com/">Mathpix Snipping Tool</a> (数学公式OCR工具)
+31. <a href="https://justgetflux.com/">f.lux</a> (屏幕色温调节)
+32. <a href="https://mail.163.com/dashi/">网易邮箱大师</a> (邮件客户端)
+33. <a href="https://efotinis.neocities.org/deskpins/">DeskPins</a> (窗口置顶工具)
 
-## some utils in ubuntu
-1. fzf
-2. tldr
-3. tree
-4. broot
-5. nnn
-6. shellcheck
-7. ripgrep
-8. fd
-9. fasd
-10. autojump
-11. Tokei
-12. <https://github.com/gpakosz/.tmux>
-13. exa
-14. [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions?tab=readme-ov-file)
-15. <https://github.com/nvbn/thefuck>
-16. [zoxide](https://github.com/ajeetdsouza/zoxide)
-17. ranger
-18. neofetch
-19. glance
-20. [exa](https://github.com/ogham/exa)
-21. [rocolatey](https://github.com/rocolatey/rocolatey)
-22. [ls-icons](https://github.com/sebastiencs/ls-icons)显示彩色图标
-23. [bat](https://github.com/sharkdp/)格式化的 cat
-24. btop
+## awesome software for ubuntu
+1. <a href="https://github.com/gpakosz/.tmux">tmux配置</a> (终端复用器配置, ![Stars](https://img.shields.io/github/stars/gpakosz/.tmux?style=flat&label=Stars&logo=github))
+2. <a href="https://github.com/fastfetch-cli/fastfetch">fastfetch</a> (系统信息显示工具, ![Stars](https://img.shields.io/github/stars/fastfetch-cli/fastfetch?style=flat&label=Stars&logo=github))
+3. <a href="https://github.com/wting/autojump">autojump</a> (目录快速跳转, ![Stars](https://img.shields.io/github/stars/wting/autojump?style=flat&label=Stars&logo=github))
+4. <a href="https://github.com/ranger/ranger">ranger</a> (命令行文件管理器, ![Stars](https://img.shields.io/github/stars/ranger/ranger?style=flat&label=Stars&logo=github))
+5. <a href="https://github.com/clvv/fasd">fasd</a> (命令行快速访问工具, ![Stars](https://img.shields.io/github/stars/clvv/fasd?style=flat&label=Stars&logo=github))
+6. <a href="http://mama.indstate.edu/users/ice/tree/">tree</a> (目录树显示工具)
