@@ -1,0 +1,49 @@
+name: Check Links
+
+on:
+  schedule:
+    # Run weekly on Sundays at 2 AM UTC
+    - cron: '0 2 * * 0'
+  push:
+    branches: [ master, main ]
+    paths: [ 'README.md' ]
+  workflow_dispatch:
+
+jobs:
+  check-links:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Check links in README
+      uses: gaurav-nelson/github-action-markdown-link-check@v1
+      with:
+        use-quiet-mode: 'yes'
+        use-verbose-mode: 'yes'
+        config-file: '.github/markdown-link-check-config.json'
+
+    - name: Check GitHub repository links
+      run: |
+        echo "Checking specific GitHub repository links..."
+        
+        # Extract GitHub URLs from README.md
+        urls=$(grep -oP 'https://github\.com/[^)>\s]+' README.md | sort -u)
+        
+        failed_urls=""
+        for url in $urls; do
+          echo "Checking: $url"
+          if ! curl -sLI "$url" | head -1 | grep -q "200\|301\|302"; then
+            echo "❌ Failed: $url"
+            failed_urls="$failed_urls $url"
+          else
+            echo "✅ OK: $url"
+          fi
+        done
+        
+        if [ -n "$failed_urls" ]; then
+          echo "❌ The following URLs are not accessible:"
+          echo "$failed_urls"
+          exit 1
+        else
+          echo "✅ All GitHub repository links are accessible"
+        fi

@@ -1,9 +1,7 @@
 # MyPersonalConfig
+The software I'm using is supported by both Windows and ubuntu
 
-This is my personal config in windows11 and ubuntu.
-
-## 多平台都支持
-
+## Software compatible with both Windows and Ubuntu
 1. <a href="https://github.com/ohmyzsh/ohmyzsh">Oh My Zsh</a> (Zsh配置管理框架, ![Stars](https://img.shields.io/github/stars/ohmyzsh/ohmyzsh?style=flat&label=Stars&logo=github))
 2. <a href="https://github.com/microsoft/vscode">VS Code</a> (代码编辑器, ![Stars](https://img.shields.io/github/stars/microsoft/vscode?style=flat&label=Stars&logo=github))
 3. <a href="https://github.com/nvm-sh/nvm">nvm</a> (Node版本管理器, Windows使用nvm-windows, ![Stars](https://img.shields.io/github/stars/nvm-sh/nvm?style=flat&label=Stars&logo=github))
@@ -87,12 +85,10 @@ This is my personal config in windows11 and ubuntu.
 32. <a href="https://mail.163.com/dashi/">网易邮箱大师</a> (邮件客户端)
 33. <a href="https://efotinis.neocities.org/deskpins/">DeskPins</a> (窗口置顶工具)
 
-## some utils in ubuntu
+## awesome software for ubuntu
 1. <a href="https://github.com/gpakosz/.tmux">tmux配置</a> (终端复用器配置, ![Stars](https://img.shields.io/github/stars/gpakosz/.tmux?style=flat&label=Stars&logo=github))
 2. <a href="https://github.com/fastfetch-cli/fastfetch">fastfetch</a> (系统信息显示工具, ![Stars](https://img.shields.io/github/stars/fastfetch-cli/fastfetch?style=flat&label=Stars&logo=github))
 3. <a href="https://github.com/wting/autojump">autojump</a> (目录快速跳转, ![Stars](https://img.shields.io/github/stars/wting/autojump?style=flat&label=Stars&logo=github))
 4. <a href="https://github.com/ranger/ranger">ranger</a> (命令行文件管理器, ![Stars](https://img.shields.io/github/stars/ranger/ranger?style=flat&label=Stars&logo=github))
 5. <a href="https://github.com/clvv/fasd">fasd</a> (命令行快速访问工具, ![Stars](https://img.shields.io/github/stars/clvv/fasd?style=flat&label=Stars&logo=github))
 6. <a href="http://mama.indstate.edu/users/ice/tree/">tree</a> (目录树显示工具)
-
-
