@@ -18,6 +18,21 @@ echo "Enabling BBR and FQ..."
 sudo sysctl -w net.ipv4.tcp_congestion_control=bbr # Enable BBR algorithm
 sudo sysctl -w net.core.default_qdisc=fq          # Enable Fair Queuing
 
+# Use fq so kernel pacing works accurately (required for BBR)
+sudo sysctl -w net.core.default_qdisc = fq
+
+# Enable TCP BBR (v1)
+sudo sysctl -w net.ipv4.tcp_congestion_control = bbr
+
+# Enable ECN with fallback (helps coexistence/AQM; safe if middleboxes strip ECN)
+sudo sysctl -w net.ipv4.tcp_ecn = 1
+# Keep fallback enabled (default) so ECN auto-disables if the path is hostile
+# net.ipv4.tcp_ecn_fallback = 1
+
+# Optional: modest buffer ceilings to avoid excessive queueing while keeping high-BDP stability
+sudo sysctl -w net.ipv4.tcp_rmem = 4096 131072 6291456
+sudo sysctl -w net.ipv4.tcp_wmem = 4096 131072 6291456
+
 # 5. Apply changes and verify
 echo "Applying changes..."
 sudo sysctl -p                                     # Load changes
