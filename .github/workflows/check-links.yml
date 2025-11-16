@@ -27,7 +27,7 @@ jobs:
         echo "Checking specific GitHub repository links..."
         
         # Extract GitHub URLs from README.md
-        urls=$(grep -oP 'https://github\.com/[^)>\s]+' README.md | sort -u)
+        urls=$(grep -oP 'https://github\.com/[^)>\s"]+' README.md | sort -u)
         
         failed_urls=""
         for url in $urls; do
