@@ -24,10 +24,10 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     
-    - name: Test init.sh syntax
+    - name: Test WSL2_setup.sh syntax
       run: |
-        bash -n init.sh
-        echo "✅ init.sh has valid syntax"
+        bash -n WSL2_setup.sh
+        echo "✅ WSL2_setup.sh has valid syntax"
     
     - name: Test partial setup (safe commands only)
       run: |
@@ -42,7 +42,6 @@ jobs:
         # Validate URLs are reachable
         curl -sI https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/heads/master/install.sh > /dev/null
         curl -sI https://github.com/neovim/neovim/releases/latest/download/nvim-linux-x86_64.tar.gz > /dev/null
-        curl -sI https://github.com/NvChad/starter > /dev/null
         
-        echo "✅ All URLs in init.sh are reachable"
+        echo "✅ All URLs in WSL2_setup.sh are reachable"
         echo "✅ Required system tools are available"

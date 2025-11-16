@@ -92,6 +92,7 @@ install_package_managers() {
     if ! command -v uv &> /dev/null; then
         log_info "Installing uv (Python package manager)..."
         curl -LsSf https://astral.sh/uv/install.sh | sh
+        # shellcheck disable=SC1090
         source ~/.local/bin/env 2>/dev/null || true
     fi
     
@@ -105,6 +106,7 @@ install_package_managers() {
     if ! command -v bun &> /dev/null; then
         log_info "Installing bun..."
         curl -fsSL https://bun.sh/install | bash
+        # shellcheck disable=SC1090
         source ~/.bashrc 2>/dev/null || true
     fi
     
@@ -324,7 +326,7 @@ configure_shell() {
     show_progress "Configuring shell integrations and aliases..."
     
     # Backup existing .zshrc
-    [ -f ~/.zshrc ] && cp ~/.zshrc ~/.zshrc.backup.$(date +%Y%m%d_%H%M%S)
+    [ -f ~/.zshrc ] && cp ~/.zshrc ~/.zshrc.backup."$(date +%Y%m%d_%H%M%S)"
     
     # Configure Oh My Zsh settings and plugins
     cat >> ~/.zshrc << 'EOL'
