@@ -181,6 +181,16 @@ install_precompiled_tools() {
         rm -rf /tmp/bat* /tmp/bat.tar.gz
     fi
     
+    # Install tailspin (log file highlighter)
+    if ! command -v tspin &> /dev/null; then
+        log_info "Installing tailspin..."
+        TAILSPIN_VERSION=$(curl -s https://api.github.com/repos/bensadeh/tailspin/releases/latest | grep tag_name | cut -d '"' -f 4)
+        wget -q "https://github.com/bensadeh/tailspin/releases/download/${TAILSPIN_VERSION}/tailspin-x86_64-unknown-linux-gnu.tar.gz" -O /tmp/tailspin.tar.gz
+        tar -xzf /tmp/tailspin.tar.gz -C /tmp/
+        sudo mv /tmp/tspin /usr/local/bin/
+        rm -rf /tmp/tailspin*
+    fi
+    
     # Install ripgrep (ultra-fast grep)
     if ! command -v rg &> /dev/null; then
         log_info "Installing ripgrep..."
@@ -511,10 +521,10 @@ show_completion() {
     echo -e "1. Restart your terminal or run: ${YELLOW}exec zsh${NC}"
     echo -e "2. (Optional) Restart WSL2 for systemd: ${YELLOW}wsl --shutdown${NC} then reopen"
     echo -e "3. Configure starship prompt: ${YELLOW}starship config${NC}"
-    echo -e "4. Test new tools: ${YELLOW}eza, fd, zoxide, bat, btop${NC}"
+    echo -e "4. Test new tools: ${YELLOW}eza, fd, zoxide, bat, tspin, btop${NC}"
     
     echo -e "\n${BLUE}Installed modern tools:${NC}"
-    echo -e "• File operations: eza, fd, zoxide, bat, ripgrep"
+    echo -e "• File operations: eza, fd, zoxide, bat, tspin, ripgrep"
     echo -e "• System monitoring: btop, bottom, dust, duf, procs"
     echo -e "• Development: uv, mise, pnpm, bun, starship"
     echo -e "• Utilities: hyperfine, tokei, mcfly, lazydocker"
