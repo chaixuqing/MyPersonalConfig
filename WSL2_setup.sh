@@ -188,7 +188,7 @@ install_precompiled_tools() {
         wget -q "https://github.com/bensadeh/tailspin/releases/download/${TAILSPIN_VERSION}/tailspin-x86_64-unknown-linux-gnu.tar.gz" -O /tmp/tailspin.tar.gz
         tar -xzf /tmp/tailspin.tar.gz -C /tmp/
         sudo mv /tmp/tspin /usr/local/bin/
-        rm -rf /tmp/tailspin* /tmp/tspin
+        rm -rf /tmp/tailspin*
     fi
     
     # Install ripgrep (ultra-fast grep)
