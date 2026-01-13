@@ -524,7 +524,7 @@ show_completion() {
     echo -e "4. Test new tools: ${YELLOW}eza, fd, zoxide, bat, tspin, btop${NC}"
     
     echo -e "\n${BLUE}Installed modern tools:${NC}"
-    echo -e "• File operations: eza, fd, zoxide, bat, tailspin, ripgrep"
+    echo -e "• File operations: eza, fd, zoxide, bat, tspin, ripgrep"
     echo -e "• System monitoring: btop, bottom, dust, duf, procs"
     echo -e "• Development: uv, mise, pnpm, bun, starship"
     echo -e "• Utilities: hyperfine, tokei, mcfly, lazydocker"
